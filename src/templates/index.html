@@ -1,16 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Restaurant Apps Starter Project</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Resto</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<h1>Restaurant Apps Starter Project</h1>
-<p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-<p>Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros sebagai background hero elemen</p>
-<img src="./images/heros/hero-image_1.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_2.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_3.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_4.jpg" width="450" alt="">
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__title">
+                Elegant Resto
+            </h1>
+        </div>
+        <a id="menu" class="header__menu">☰</a>
+    </header>
+    <nav id="drawer" class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Favorite</a></li>
+            <li class="nav__item"><a href="https://www.instagram.com/a.m.elegant/">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero__inner">
+            <h1 class="hero__title">Satu Satunya Restauran Bintang 5 di Bojonegoro</h1>
+            <p class="hero__tagline">Nikmati hidangan serba mewah berkelas dunia yang jarang ada di Indonesia! Baik
+                masakan lokal maupun manca negara semua ada disini!</p>
+        </div>
+    </div>
+    <main>
+        <section class="content">
+            <div class="latest">
+                <h1 class="latest__label">Explore Restaurant</h1>
+                <div class="posts">
+                    <article class="post-item">
+                        <img class="post-item__thumbnail"
+                            src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/41"
+                            alt="Gambar Bring Your Phone Cafe">
+                        <div class="post-item__content">
+                            <h2 class="post-item__rate">Rating: 4.5</h2>
+                            <h1 class="post-item__title"><a href="#">Bring Your Phone Cafe</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+                                a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                                tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                                tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
+                                lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
+                                metus varius laoreet.</p>
+                        </div>
+                    </article>
+
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="images/post-2.jpg" alt="Github logo">
+                        <div class="post-item__content">
+                            <h1 class="post-item__title"><a href="#">Apa itu Rate Limit pada Github API?</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="images/post-3.jpg"
+                            alt="Seorang lelaki sendang memakai filter instagram">
+                        <div class="post-item__content">
+                            <h1 class="post-item__title"><a href="#">2 Langkah Utama Membuat Filter Kece di
+                                    Instagram</a>
+                            </h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="images/post-4.jpg"
+                            alt="Seorang lelaki dengan ekspresi bingung">
+                        <div class="post-item__content">
+                            <h1 class="post-item__title"><a href="#">Kenapa Anak Sosial Hijrah Belajar Kotlin
+                                    Android?</a>
+                            </h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="images/post-5.png"
+                            alt="Seorang lelaki memakai baju abu-abu">
+                        <div class="post-item__content">
+                            <h1 class="post-item__title"><a href="#">Programmer Atau Pro Gamer, Kamu Team Mana?</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="images/post-6.png"
+                            alt="Seorang wanita di depan komputer sedang pusing">
+                        <div class="post-item__content">
+                            <h1 class="post-item__title"><a href="#">Algoritma Dulu Ngoding Kemudian</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <p class="text-footer">Copyright © 2021 - Elegant Resto</p>
+        </ul>
+    </footer>
 </body>
+
 </html>
