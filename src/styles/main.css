@@ -246,10 +246,11 @@ main {
 
 .post-item__thumbnail {
     width: 100%;
+    max-height: 240px;
 }
 
 .post-item__rate {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     margin-top: 5px;
 }
@@ -257,8 +258,14 @@ main {
 .post-item__title {
     font-weight: 500;
     font-size: 16px;
-    margin-top: 16px;
+    margin-top: 5px;
     transition: 0.3s opacity;
+}
+
+.post-item__city {
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 5px;
 }
 
 .post-item__title:hover {
