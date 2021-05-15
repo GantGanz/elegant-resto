@@ -291,14 +291,15 @@ main {
 
 footer {
     background-color: #2c3e50;
-    padding: 2em;
+    padding: 1em;
     width: 100%;
     text-align: center;
 }
 
 footer p {
     display: inline-block;
-    padding: 1.3em;
+    font-size: 14px;
+    padding: 1em;
     text-decoration: none;
     color: #fff
 }
