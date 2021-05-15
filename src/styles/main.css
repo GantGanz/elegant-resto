@@ -20,7 +20,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     color: #424242;
-    background-color: #eeeeee;
+    background-color: #faf3f3;
 }
 
 button,
@@ -54,6 +54,7 @@ a {
 .header {
     min-height: 56px;
     transition: min-height 0.3s;
+    background-color: #a7bbc7;
 }
 
 .header__inner {
@@ -83,6 +84,7 @@ a {
  */
 
 .nav {
+    background-color: #e1e5ea;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -242,7 +244,7 @@ main {
     content: '';
     margin-top: 16px;
     display: block;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #000000;
 }
 
 /*
@@ -320,8 +322,8 @@ footer {
 
 footer p {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     padding: 1em;
     text-decoration: none;
-    color: #fff
+    color: #a7bbc7
 }
