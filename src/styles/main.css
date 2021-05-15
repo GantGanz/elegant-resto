@@ -22,6 +22,21 @@ body {
     color: #424242;
 }
 
+/* Skip to content */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 /*
  * Header
  *
@@ -205,7 +220,7 @@ main {
 
 .latest {
     width: 100%;
-    margin: 60px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -248,7 +263,8 @@ main {
 
 .post-item__thumbnail {
     width: 100%;
-    max-height: 240px;
+    min-height: 230px;
+    max-height: 230px;
 }
 
 .post-item__rate {
