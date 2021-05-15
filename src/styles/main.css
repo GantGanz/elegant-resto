@@ -22,6 +22,12 @@ body {
     color: #424242;
 }
 
+button a {
+    box-sizing: border-box;
+    min-width: 44px;
+    min-height: 44px;
+}
+
 /* Skip to content */
 .skip-link {
     position: absolute;
